@@ -1,5 +1,8 @@
 const prompt = require('prompt-sync')();
-let note  = Number (prompt("entre un nombre") )
+
+let note  = Number (prompt("entre un nombre"))
+
+
 if (note <=0 || note >=20) {
     console.log("non valide")
 }else {
@@ -13,5 +16,8 @@ console.log("Assez bien")
     console.log("bien")
 }else if (note >=16 && note <=17.99){
     console.log("tres bien")
-} else   {console.log("excellent")}
+}else 
+      {
+    console.log("excellent")
 }
+
